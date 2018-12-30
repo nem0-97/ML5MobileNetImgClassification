@@ -12,8 +12,6 @@ function makePrediction(imgFiles){
     for(let i=0;i<paras.length;i++){
       document.getElementsByTagName('body')[0].removeChild(paras[i]);
     }
-    console.log(paras);
-    console.log(imgs);
     for(let i=0;i<imgFiles.length;i++){
       let img=new Image(400,400);
       let reader = new FileReader();
